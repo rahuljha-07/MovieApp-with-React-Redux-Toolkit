@@ -1,0 +1,25 @@
+@import "../../common/colors.scss";
+
+.movie-list,
+.show-list {
+  margin: 20px 0px;
+  h2 {
+    color: $font-secondary;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+}
+
+.slider-container {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #121212;
+  color: white;
+
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
